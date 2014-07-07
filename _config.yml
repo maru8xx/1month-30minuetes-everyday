@@ -1,0 +1,11 @@
+# Site settings
+title: 1 Month. 30 Minuetes. Every Day.
+baseurl: "/1month-30minuetes-everyday"
+
+twitter_username: maru8xx
+github_username:  maru8xx
+
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
+permalink: pretty

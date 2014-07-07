@@ -1,0 +1,12 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<main>
+	<h1>{{page.title}}</h1>
+	
+	{{ content }}
+	
+	<p>Recipe by <a href="{{ page.recipe-attribution-link }}"></a></p>
+</main>
+
