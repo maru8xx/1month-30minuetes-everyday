@@ -1,2 +1,9 @@
 ﻿language: ruby
+rvm:
+  - 2.0.0
+before_script: "bundle show"
 script: "bundle exec jekyll build"
+after_script: "find _site -type f"
+branches:
+  only:
+    - gh-pages
