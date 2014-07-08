@@ -2,7 +2,7 @@
 rvm:
   - 2.0.0
 before_script: "bundle show"
-script: "bundle exec jekyll build"
+script: "bundle exec jekyll build --trace"
 after_script: "find _site -type f"
 branches:
   only:
